@@ -23,59 +23,67 @@ const Sidebar = () => {
         <ul>
           <p className="title">MAIN</p>
           <li>
-            <DashboardIcon />
+            <DashboardIcon className="icon" />
             <span>dashbord</span>
           </li>
           <p className="title">LISTS</p>
           <li>
-            <PersonOutlineOutlinedIcon />
+            <PersonOutlineOutlinedIcon className="icon" />
             <span>Users</span>
           </li>
           <li>
-            <AddBusinessIcon />
+            <AddBusinessIcon className="icon" />
             <span>Products</span>
           </li>
           <li>
-            <CreditCardIcon />
+            <CreditCardIcon className="icon" />
             <span>Orders</span>
           </li>
           <li>
-            <LocalShippingIcon />
+            <LocalShippingIcon className="icon" />
             <span>Delivery</span>
           </li>
+          <p className="title">USEFUL</p>
+
           <li>
-            <InsertChartIcon />
+            <InsertChartIcon className="icon" />
             <span>stats</span>
           </li>
           <li>
-            <NotificationsNoneIcon />
+            <NotificationsNoneIcon className="icon" />
             <span>Notifications</span>
           </li>
+          <p className="title">SERVICE</p>
+
           <li>
-            <SettingsSystemDaydreamOutlinedIcon />
+            <SettingsSystemDaydreamOutlinedIcon className="icon" />
             <span>System Health</span>
           </li>
           <li>
-            <PsychologyOutlinedIcon />
+            <PsychologyOutlinedIcon className="icon" />
             <span>Logs</span>
           </li>
           <li>
-            <SettingsApplicationsIcon />
+            <SettingsApplicationsIcon className="icon" />
             <span>Settings</span>
           </li>
+          <p className="title">USER</p>
+
           <li>
-            <AccountCircleOutlinedIcon />
+            <AccountCircleOutlinedIcon className="icon" />
             <span>Profile</span>
           </li>
           <li>
-            <ExitToAppOutlinedIcon />
+            <ExitToAppOutlinedIcon className="icon" />
             <span>Logout</span>
           </li>
         </ul>
       </div>
-      <div className="botttom">color options</div>
+      <div className="bottom">
+        <div className="colorOption"></div>
+        <div className="colorOption"></div>
+      </div>
     </div>
   );
 };
-
 export default Sidebar;
