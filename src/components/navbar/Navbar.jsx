@@ -1,5 +1,5 @@
 import "./navbar.scss";
-import Image from '../../images/omid-avatar.jpg'
+import Image from "../../images/omid-avatar.jpg";
 import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 import LanguageOutlinedIcon from "@mui/icons-material/LanguageOutlined";
 import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
@@ -29,19 +29,17 @@ const Navbar = () => {
           </div>
           <div className="item">
             <NotificationsNoneOutlinedIcon className="icon" />
+            <div className="counter">1</div>
           </div>
           <div className="item">
             <ChatBubbleOutlineOutlinedIcon className="icon" />
+            <div className="counter">2</div>
           </div>
           <div className="item">
             <ListOutlinedIcon />
           </div>
           <div className="item">
-            <img
-              src={Image}
-              alt=""
-              className="avatar"
-            />
+            <img src={Image} alt="" className="avatar" />
           </div>
         </div>
       </div>
